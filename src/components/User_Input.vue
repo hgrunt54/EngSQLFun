@@ -36,5 +36,6 @@
     input[type=submit] {
         margin-top: 1rem;
         padding: .5rem 1rem .5rem 1rem;
+        font-weight: 600;
     }
 </style>
