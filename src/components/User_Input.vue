@@ -1,6 +1,6 @@
 <template>
     <section>
-        <form id="input-form" class="form" action="https://formsubmit.co/gary.bouck@wolterskluwer.com.com" method="POST">
+        <form id="input-form" class="form" action="https://formsubmit.co/gary.bouck@wolterskluwer.com" method="POST">
             <input type="hidden" name="_subject" value="WK SQL Fun!">
             <input type="hidden" name="_next" value="https://transcendent-lollipop-48951b.netlify.app/">
             <label for="empName">Name: </label>
