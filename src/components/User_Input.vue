@@ -8,7 +8,7 @@
             <label for="empEmail">Email: </label>
             <input type="text" id="empEmail" name="Email" placeholder="Email Address" required /><br /><br />
             <h3>Script:</h3>
-            <textarea id="script" name="script" required></textarea><br />
+            <textarea id="script" name="script" placeholder="Enter your SQL Code here!" required></textarea><br />
             <input type="submit" value="Submit!" />
         </form>
     </section>
