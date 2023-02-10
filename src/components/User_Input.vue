@@ -3,13 +3,21 @@
         <form id="input-form" class="form" action="https://formsubmit.co/3fb13f7c8487de7f4a7b25ac78add79b" method="POST">
             <input type="hidden" name="_subject" value="WK SQL Fun!">
             <input type="hidden" name="_next" value="https://transcendent-lollipop-48951b.netlify.app/">
-            <label for="empName">Name: </label>
-            <input type="text" id="empName" name="Name" placeholder="Your Name Here" required /><br />
-            <label for="empEmail">Email: </label>
-            <input type="text" id="empEmail" name="Email" placeholder="Email Address" required /><br /><br />
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="empName" name="Name" placeholder="Your Name Here" required />
+                <label for="empName">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="empEmail" name="Email" placeholder="Email Address" required />
+                <label  for="empEmail">Email </label>
+            </div>
             <h3>Script:</h3>
-            <textarea id="script" name="script" placeholder="Enter your SQL Code here!" required></textarea><br />
-            <input type="submit" value="Submit!" />
+            <div class="form-floating mb-3">
+                <textarea class="form-control fc2" id="script" name="script" placeholder="Enter your SQL Code here!" style="height: 25vh;" required></textarea>
+                <label for="script">Enter Code</label>
+            </div>
+            
+            <input class="btn btn-primary borderless" type="submit" value="Submit!" />
         </form>
     </section>
 </template>
@@ -22,20 +30,19 @@
     section {
         margin-left: 15rem;
     }
-    textarea {
-        margin-top: .5rem;
+    input {
         border: 2px solid blue;
-        width: 50vw;
-        height: 25vh;
+    }
+    textarea {
+        border: 2px solid blue;
         resize: none;
     }
-    input[type=text] {
-        width: 15vw;
-        margin: .5rem;
+    .form-floating {
+        margin: auto;
+        width: 25%;
     }
-    input[type=submit] {
-        margin-top: 1rem;
-        padding: .5rem 1rem .5rem 1rem;
-        font-weight: 600;
+    .borderless {
+        border: none;
     }
+
 </style>

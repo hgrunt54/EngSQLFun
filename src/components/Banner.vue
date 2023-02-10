@@ -11,6 +11,6 @@
         padding: 1rem;
         background-color: green;
         color: whitesmoke;
-        text-shadow: 1px 1px 2px #000066, 5px 5px 25px #1a1aff, 2.5px 2.5px 5px #000099;
+        text-shadow: 1px 1px 2px #000066, 5px 5px 50px #1a1aff, 2.5px 2.5px 20px #000099;
     }
 </style>

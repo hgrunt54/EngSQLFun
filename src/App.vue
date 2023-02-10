@@ -19,6 +19,7 @@
         margin: 0 auto;
         text-align: center;
         border: 3px solid green;
+        background-color: green;
     }
     .query {
         margin: 0 auto;
